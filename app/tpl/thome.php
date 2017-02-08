@@ -7,6 +7,17 @@
 	<link rel="stylesheet" type="text/css" href="<?=CSS?>style.css">
 </head>
 <body>
-	<h1><?=$this->name?></h1>
+
+	<h1><?= $this->page; ?></h1>
+	<table class="table table-hover">
+		<?php for($i=0;$i<count($this->dataTable);$i++){ ?>
+			<tr>
+			<?php foreach($this->dataTable[$i] as $key=>$value) :?>
+				
+	        		<td><?= $value; ?></td>
+	    	
+	    	<?php endforeach; ?>
+	    	</tr>
+	    <?php } ?>
+	</table>
 </body>
-</html>

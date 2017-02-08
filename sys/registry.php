@@ -50,11 +50,13 @@
 		*	Loads APP configuration in Registry
 		*
 		**/
-		function loadConf(){
+		function loadConf()
+		{
 			$file=APP.'config.json';
 			$jsonStr=file_get_contents($file);
 			$arrayJson=json_decode($jsonStr);
-			foreach ($arrayJson as $key => $value) {
+			foreach ($arrayJson as $key => $value)
+			{
 				$this->data[$key]=$value;
 				echo '<br/><br/>Prueba registry 1, Guardado de la configuracion:';
 				var_dump($this->data[$key]);

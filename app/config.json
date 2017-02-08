@@ -1,10 +1,10 @@
 {
 	"dbconf":{
-		"driver":"",
-		"dbname":"",
-		"dbhost":"",
-		"dbuser":"",
-		"dbpass":""
+		"driver":"mysql",
+		"dbname":"storypub",
+		"dbhost":"localhost",
+		"dbuser":"root",
+		"dbpass":"linuxlinux"
 	},
 	"app":{
 		"version":"1.0",
