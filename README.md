@@ -1,2 +1,2 @@
-X es un framework para PHP creado en clase desde cero. 
-Permite rutas amigables y MVC.
+X is a framework for PHP created in class from scratch.
+It allows friendly routes and MVC.
